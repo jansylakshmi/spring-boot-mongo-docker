@@ -12,3 +12,9 @@ services:
     - mongodb:/data/db
     networks:
     - springappnetwork
+volumes:
+  mongodb:
+   external: true
+networks:
+  springappnetwork:
+    external: true
