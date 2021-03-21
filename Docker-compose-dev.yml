@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  springapp:
+    environment:
+    - MONGO_DB_USERNAME=dev
+    - MONGO_DB_PASSWORD=dev@123
+  mongo:
+    environment:
+    - MONGO_INITDB_ROOT_USERNAME=dev
+    - MONGO_INITDB_ROOT_PASSWORD=devdb@123
